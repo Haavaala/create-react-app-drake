@@ -3,4 +3,4 @@
   commandOrigin = "config"
   functions = "/opt/build/repo/built-lambda" # netlify-lambda builds to this folder AND Netlify reads functions from here
   publish = "/opt/build/repo/build" # create-react-app builds to this folder, Netlify should serve all these files statically
-  publishOrigin: config
+  publishOrigin: "config"
