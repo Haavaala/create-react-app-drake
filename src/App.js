@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
+import drake from "./20552-2-drake-face-transparent.png"
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -36,9 +37,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={drake} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Hello, im drake and Im spinning
           </p>
           <LambdaDemo />
         </header>
