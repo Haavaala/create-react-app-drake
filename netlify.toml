@@ -1,6 +1,6 @@
 [build]
-    command = yarn build
-    commandOrigin = config
-    publish = /opt/build/repo/opt/build/repo/build
-    publishOrigin = config
-    functionsDirectory = /opt/build/repo/opt/build/repo/built-lambda
+    command = "yarn build"
+    commandOrigin = "config"
+    publish = "/opt/build/repo/opt/build/repo/build"
+    publishOrigin = "config"
+    functionsDirectory = "/opt/build/repo/opt/build/repo/built-drake"
