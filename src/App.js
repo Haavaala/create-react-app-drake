@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import logo from "./logo.svg"
 import "./App.css"
 import drake from "./20552-2-drake-face-transparent.png"
 
